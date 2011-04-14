@@ -5,4 +5,4 @@ default_attributes(
   :packages => ['redis-server']
 )
 
-run_list "recipe[git]", "recipe[logrotate]", "recipe[nginx]", "recipe[packages]"
+run_list "recipe[git]", "recipe[nginx]", "recipe[packages]"
